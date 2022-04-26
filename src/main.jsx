@@ -4,8 +4,9 @@ import App from './App';
 import './main.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { render } from 'react-dom';
-import Expenses from './routes/expenses';
-import Invoices from './routes/invoices';
+import Expenses from './routes/Expenses';
+import Invoices from './routes/Invoices';
+import Invoice from './routes/Invoice';
 
 let rootElement = document.getElementById('root');
 ReactDOM.render(
